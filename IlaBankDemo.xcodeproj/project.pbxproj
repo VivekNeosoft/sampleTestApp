@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B1FDF2268483A3000AE2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FDF1268483A3000AE2C8 /* AppDelegate.swift */; };
+		18B1FDFB268483A5000AE2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FDFA268483A5000AE2C8 /* Assets.xcassets */; };
+		18B1FDFE268483A5000AE2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FDFC268483A5000AE2C8 /* LaunchScreen.storyboard */; };
+		18B1FE09268483A5000AE2C8 /* IlaBankDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE08268483A5000AE2C8 /* IlaBankDemoTests.swift */; };
+		18B1FE14268483A5000AE2C8 /* IlaBankDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE13268483A5000AE2C8 /* IlaBankDemoUITests.swift */; };
+		18B1FE2E2684846C000AE2C8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE2C2684846C000AE2C8 /* ListViewController.swift */; };
+		18B1FE2F2684846C000AE2C8 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FE2D2684846C000AE2C8 /* ListViewController.xib */; };
+		18B1FE3726848489000AE2C8 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE3626848489000AE2C8 /* ListViewModel.swift */; };
+		18B1FE5B2684910F000AE2C8 /* SearchViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE592684910F000AE2C8 /* SearchViewTableViewCell.swift */; };
+		18B1FE5C2684910F000AE2C8 /* SearchViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FE5A2684910F000AE2C8 /* SearchViewTableViewCell.xib */; };
+		18B1FE6526849234000AE2C8 /* ListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE6326849234000AE2C8 /* ListViewTableViewCell.swift */; };
+		18B1FE6626849234000AE2C8 /* ListViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FE6426849234000AE2C8 /* ListViewTableViewCell.xib */; };
+		18B1FE6C2684925A000AE2C8 /* CarousalViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE6A2684925A000AE2C8 /* CarousalViewTableViewCell.swift */; };
+		18B1FE6D2684925A000AE2C8 /* CarousalViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FE6B2684925A000AE2C8 /* CarousalViewTableViewCell.xib */; };
+		18B1FE78268499AC000AE2C8 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FE76268499AC000AE2C8 /* CarouselCollectionViewCell.swift */; };
+		18B1FE79268499AC000AE2C8 /* CarouselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FE77268499AC000AE2C8 /* CarouselCollectionViewCell.xib */; };
+		18CD9DD626888B0C00DD94F4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD9DD526888B0C00DD94F4 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B1FE05268483A5000AE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B1FDE6268483A3000AE2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B1FDED268483A3000AE2C8;
+			remoteInfo = IlaBankDemo;
+		};
+		18B1FE10268483A5000AE2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B1FDE6268483A3000AE2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B1FDED268483A3000AE2C8;
+			remoteInfo = IlaBankDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B1FDEE268483A3000AE2C8 /* IlaBankDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlaBankDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1FDF1268483A3000AE2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B1FDFA268483A5000AE2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18B1FDFD268483A5000AE2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18B1FDFF268483A5000AE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1FE04268483A5000AE2C8 /* IlaBankDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlaBankDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1FE08268483A5000AE2C8 /* IlaBankDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlaBankDemoTests.swift; sourceTree = "<group>"; };
+		18B1FE0A268483A5000AE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1FE0F268483A5000AE2C8 /* IlaBankDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IlaBankDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1FE13268483A5000AE2C8 /* IlaBankDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlaBankDemoUITests.swift; sourceTree = "<group>"; };
+		18B1FE15268483A5000AE2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1FE2C2684846C000AE2C8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		18B1FE2D2684846C000AE2C8 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		18B1FE3626848489000AE2C8 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		18B1FE592684910F000AE2C8 /* SearchViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewTableViewCell.swift; sourceTree = "<group>"; };
+		18B1FE5A2684910F000AE2C8 /* SearchViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewTableViewCell.xib; sourceTree = "<group>"; };
+		18B1FE6326849234000AE2C8 /* ListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTableViewCell.swift; sourceTree = "<group>"; };
+		18B1FE6426849234000AE2C8 /* ListViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewTableViewCell.xib; sourceTree = "<group>"; };
+		18B1FE6A2684925A000AE2C8 /* CarousalViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousalViewTableViewCell.swift; sourceTree = "<group>"; };
+		18B1FE6B2684925A000AE2C8 /* CarousalViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarousalViewTableViewCell.xib; sourceTree = "<group>"; };
+		18B1FE76268499AC000AE2C8 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		18B1FE77268499AC000AE2C8 /* CarouselCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCollectionViewCell.xib; sourceTree = "<group>"; };
+		18CD9DD526888B0C00DD94F4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B1FDEB268483A3000AE2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FE01268483A5000AE2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FE0C268483A5000AE2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B1FDE5268483A3000AE2C8 = {
+			isa = PBXGroup;
+			children = (
+				18B1FDF0268483A3000AE2C8 /* IlaBankDemo */,
+				18B1FE07268483A5000AE2C8 /* IlaBankDemoTests */,
+				18B1FE12268483A5000AE2C8 /* IlaBankDemoUITests */,
+				18B1FDEF268483A3000AE2C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B1FDEF268483A3000AE2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FDEE268483A3000AE2C8 /* IlaBankDemo.app */,
+				18B1FE04268483A5000AE2C8 /* IlaBankDemoTests.xctest */,
+				18B1FE0F268483A5000AE2C8 /* IlaBankDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B1FDF0268483A3000AE2C8 /* IlaBankDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE49268487C9000AE2C8 /* Utility */,
+				18B1FE2726848405000AE2C8 /* Resources */,
+				18B1FE2826848431000AE2C8 /* Controllers */,
+				18B1FE25268483F0000AE2C8 /* ViewModels */,
+				18B1FE24268483E5000AE2C8 /* Views */,
+			);
+			path = IlaBankDemo;
+			sourceTree = "<group>";
+		};
+		18B1FE07268483A5000AE2C8 /* IlaBankDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE08268483A5000AE2C8 /* IlaBankDemoTests.swift */,
+				18B1FE0A268483A5000AE2C8 /* Info.plist */,
+			);
+			path = IlaBankDemoTests;
+			sourceTree = "<group>";
+		};
+		18B1FE12268483A5000AE2C8 /* IlaBankDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE13268483A5000AE2C8 /* IlaBankDemoUITests.swift */,
+				18B1FE15268483A5000AE2C8 /* Info.plist */,
+			);
+			path = IlaBankDemoUITests;
+			sourceTree = "<group>";
+		};
+		18B1FE24268483E5000AE2C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE58268490F3000AE2C8 /* Cells */,
+				18B1FDFC268483A5000AE2C8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18B1FE25268483F0000AE2C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE3626848489000AE2C8 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18B1FE2726848405000AE2C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FDF1268483A3000AE2C8 /* AppDelegate.swift */,
+				18B1FDFA268483A5000AE2C8 /* Assets.xcassets */,
+				18B1FDFF268483A5000AE2C8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18B1FE2826848431000AE2C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE2C2684846C000AE2C8 /* ListViewController.swift */,
+				18B1FE2D2684846C000AE2C8 /* ListViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18B1FE49268487C9000AE2C8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE4A268487D4000AE2C8 /* Extensions */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18B1FE4A268487D4000AE2C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18CD9DD526888B0C00DD94F4 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18B1FE58268490F3000AE2C8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE7526849985000AE2C8 /* CollectionView Cells */,
+				18B1FE7126849979000AE2C8 /* TableView Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18B1FE7126849979000AE2C8 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE592684910F000AE2C8 /* SearchViewTableViewCell.swift */,
+				18B1FE5A2684910F000AE2C8 /* SearchViewTableViewCell.xib */,
+				18B1FE6326849234000AE2C8 /* ListViewTableViewCell.swift */,
+				18B1FE6426849234000AE2C8 /* ListViewTableViewCell.xib */,
+				18B1FE6A2684925A000AE2C8 /* CarousalViewTableViewCell.swift */,
+				18B1FE6B2684925A000AE2C8 /* CarousalViewTableViewCell.xib */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		18B1FE7526849985000AE2C8 /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FE76268499AC000AE2C8 /* CarouselCollectionViewCell.swift */,
+				18B1FE77268499AC000AE2C8 /* CarouselCollectionViewCell.xib */,
+			);
+			path = "CollectionView Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B1FDED268483A3000AE2C8 /* IlaBankDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1FE18268483A5000AE2C8 /* Build configuration list for PBXNativeTarget "IlaBankDemo" */;
+			buildPhases = (
+				18B1FDEA268483A3000AE2C8 /* Sources */,
+				18B1FDEB268483A3000AE2C8 /* Frameworks */,
+				18B1FDEC268483A3000AE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlaBankDemo;
+			productName = IlaBankDemo;
+			productReference = 18B1FDEE268483A3000AE2C8 /* IlaBankDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B1FE03268483A5000AE2C8 /* IlaBankDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1FE1B268483A5000AE2C8 /* Build configuration list for PBXNativeTarget "IlaBankDemoTests" */;
+			buildPhases = (
+				18B1FE00268483A5000AE2C8 /* Sources */,
+				18B1FE01268483A5000AE2C8 /* Frameworks */,
+				18B1FE02268483A5000AE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B1FE06268483A5000AE2C8 /* PBXTargetDependency */,
+			);
+			name = IlaBankDemoTests;
+			productName = IlaBankDemoTests;
+			productReference = 18B1FE04268483A5000AE2C8 /* IlaBankDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18B1FE0E268483A5000AE2C8 /* IlaBankDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1FE1E268483A5000AE2C8 /* Build configuration list for PBXNativeTarget "IlaBankDemoUITests" */;
+			buildPhases = (
+				18B1FE0B268483A5000AE2C8 /* Sources */,
+				18B1FE0C268483A5000AE2C8 /* Frameworks */,
+				18B1FE0D268483A5000AE2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B1FE11268483A5000AE2C8 /* PBXTargetDependency */,
+			);
+			name = IlaBankDemoUITests;
+			productName = IlaBankDemoUITests;
+			productReference = 18B1FE0F268483A5000AE2C8 /* IlaBankDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B1FDE6268483A3000AE2C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18B1FDED268483A3000AE2C8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18B1FE03268483A5000AE2C8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18B1FDED268483A3000AE2C8;
+					};
+					18B1FE0E268483A5000AE2C8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 18B1FDED268483A3000AE2C8;
+					};
+				};
+			};
+			buildConfigurationList = 18B1FDE9268483A3000AE2C8 /* Build configuration list for PBXProject "IlaBankDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B1FDE5268483A3000AE2C8;
+			productRefGroup = 18B1FDEF268483A3000AE2C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B1FDED268483A3000AE2C8 /* IlaBankDemo */,
+				18B1FE03268483A5000AE2C8 /* IlaBankDemoTests */,
+				18B1FE0E268483A5000AE2C8 /* IlaBankDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B1FDEC268483A3000AE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1FE5C2684910F000AE2C8 /* SearchViewTableViewCell.xib in Resources */,
+				18B1FE6626849234000AE2C8 /* ListViewTableViewCell.xib in Resources */,
+				18B1FE6D2684925A000AE2C8 /* CarousalViewTableViewCell.xib in Resources */,
+				18B1FDFE268483A5000AE2C8 /* LaunchScreen.storyboard in Resources */,
+				18B1FDFB268483A5000AE2C8 /* Assets.xcassets in Resources */,
+				18B1FE79268499AC000AE2C8 /* CarouselCollectionViewCell.xib in Resources */,
+				18B1FE2F2684846C000AE2C8 /* ListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FE02268483A5000AE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FE0D268483A5000AE2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B1FDEA268483A3000AE2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1FE78268499AC000AE2C8 /* CarouselCollectionViewCell.swift in Sources */,
+				18B1FE6526849234000AE2C8 /* ListViewTableViewCell.swift in Sources */,
+				18B1FDF2268483A3000AE2C8 /* AppDelegate.swift in Sources */,
+				18B1FE3726848489000AE2C8 /* ListViewModel.swift in Sources */,
+				18CD9DD626888B0C00DD94F4 /* Extensions.swift in Sources */,
+				18B1FE2E2684846C000AE2C8 /* ListViewController.swift in Sources */,
+				18B1FE6C2684925A000AE2C8 /* CarousalViewTableViewCell.swift in Sources */,
+				18B1FE5B2684910F000AE2C8 /* SearchViewTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FE00268483A5000AE2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1FE09268483A5000AE2C8 /* IlaBankDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FE0B268483A5000AE2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1FE14268483A5000AE2C8 /* IlaBankDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B1FE06268483A5000AE2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B1FDED268483A3000AE2C8 /* IlaBankDemo */;
+			targetProxy = 18B1FE05268483A5000AE2C8 /* PBXContainerItemProxy */;
+		};
+		18B1FE11268483A5000AE2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B1FDED268483A3000AE2C8 /* IlaBankDemo */;
+			targetProxy = 18B1FE10268483A5000AE2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B1FDFC268483A5000AE2C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B1FDFD268483A5000AE2C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B1FE16268483A5000AE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B1FE17268483A5000AE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B1FE19268483A5000AE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567FK9RRV6;
+				INFOPLIST_FILE = /Users/apple/Desktop/IIaBankVivek/IlaBankDemo/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webwork.IlaBankDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18B1FE1A268483A5000AE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 567FK9RRV6;
+				INFOPLIST_FILE = /Users/apple/Desktop/IIaBankVivek/IlaBankDemo/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webwork.IlaBankDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18B1FE1C268483A5000AE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlaBankDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webwork.IlaBankDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlaBankDemo.app/IlaBankDemo";
+			};
+			name = Debug;
+		};
+		18B1FE1D268483A5000AE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlaBankDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webwork.IlaBankDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IlaBankDemo.app/IlaBankDemo";
+			};
+			name = Release;
+		};
+		18B1FE1F268483A5000AE2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlaBankDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webwork.IlaBankDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IlaBankDemo;
+			};
+			name = Debug;
+		};
+		18B1FE20268483A5000AE2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IlaBankDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = webwork.IlaBankDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IlaBankDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B1FDE9268483A3000AE2C8 /* Build configuration list for PBXProject "IlaBankDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FE16268483A5000AE2C8 /* Debug */,
+				18B1FE17268483A5000AE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1FE18268483A5000AE2C8 /* Build configuration list for PBXNativeTarget "IlaBankDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FE19268483A5000AE2C8 /* Debug */,
+				18B1FE1A268483A5000AE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1FE1B268483A5000AE2C8 /* Build configuration list for PBXNativeTarget "IlaBankDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FE1C268483A5000AE2C8 /* Debug */,
+				18B1FE1D268483A5000AE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1FE1E268483A5000AE2C8 /* Build configuration list for PBXNativeTarget "IlaBankDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FE1F268483A5000AE2C8 /* Debug */,
+				18B1FE20268483A5000AE2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B1FDE6268483A3000AE2C8 /* Project object */;
+}
